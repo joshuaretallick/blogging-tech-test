@@ -6,7 +6,6 @@ ruby '2.7.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.3', '>= 6.1.3.1'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3', '~> 1.4'
 gem 'carrierwave'
 gem 'mini_magick'
 # Use Puma as the app server
@@ -36,6 +35,9 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
+group :development do
+  gem 'sqlite3'
+end
 group :production do
   gem 'pg'
 end
