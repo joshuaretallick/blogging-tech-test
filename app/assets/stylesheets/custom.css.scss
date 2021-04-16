@@ -1,17 +1,6 @@
 @import "bootstrap/dist/css/bootstrap";
 
-footer {
-  margin-top: 100px;
-}
-table,
-td,
-th {
-  vertical-align: middle;
-  border: none;
-}
-th {
-  border-bottom: 1px solid #ddd;
-}
-body {
-  margin: 0;
+#sticky-footer a {
+  flex-shrink: none;
+  text-decoration: none;
 }
