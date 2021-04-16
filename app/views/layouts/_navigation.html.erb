@@ -12,6 +12,12 @@
         <li class="nav-item">
           <%= link_to 'New Article', new_article_path, class: "nav-link" %>
         </li>
+        <li class="nav-item">
+          <%= link_to 'Create new category', new_category_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+         <%= link_to 'View categories', categories_path, class: "nav-link" %>
+        </li>
       </ul>
         <p class="navbar-text float-right">
           <% if user_signed_in? %>
