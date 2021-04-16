@@ -15,5 +15,11 @@
   <%= image_tag(@article.picture_url, width: 600) if @article.picture.present? %>
 </p>
 
+<p>
+  <% if @article.categories.any? %>
+  <div class="mt-2"><%= render @article.categories %></div> 
+  <% end %>
+</p>
+
 <%= link_to 'Edit', edit_article_path(@article) %> |
 <%= link_to 'Back', articles_path %>

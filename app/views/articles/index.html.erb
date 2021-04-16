@@ -7,6 +7,9 @@
         <%= image_tag article.picture_url, width: '100%' if article.picture.present? %>
         <h4><%= link_to article.name, article %></h4>
         <%= article.description %>
+        <% if article.categories.any? %>
+          <div class="mt-2"><%= render article.categories %></div> 
+        <% end %>
       </div>
     <% end %>
   </div>
