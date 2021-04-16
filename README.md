@@ -83,4 +83,5 @@ Devise
 ## Diagrams
 
 Entity Relationship Diagram
-SCREENSHOT of diagram
+
+<img width="853" alt="Screenshot 2021-04-15 at 18 43 28" src="https://user-images.githubusercontent.com/71830424/115056432-c29c1480-9eda-11eb-9848-c8eb5716f893.png">
