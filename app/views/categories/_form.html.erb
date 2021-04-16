@@ -1,3 +1,9 @@
+<h1 class="text-center mt-4">Create a new category</h1>
+
+<div class="container">
+
+<div class="row justify-content-center">
+
 <%= form_with(model: category) do |form| %>
   <% if category.errors.any? %>
     <div id="error_explanation">
@@ -11,12 +17,16 @@
     </div>
   <% end %>
 
-  <div class="field">
+  <div class="field justify-content-center">
     <%= form.label :name %>
     <%= form.text_field :name %>
   </div>
 
-  <div class="actions">
+  <div class="actions justify-content-center">
     <%= form.submit %>
   </div>
 <% end %>
+
+</div>
+
+</div>
