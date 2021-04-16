@@ -6,7 +6,7 @@ Due to the time limitations I opted to use scaffolding where appropriate so I co
 
 ## View my app on Heroku
 
-[CLICK HERE](https://secret-meadow-14231.herokuapp.com/)
+[CLICK HERE](https://fast-headland-03608.herokuapp.com/)
 
 SCREENSHOT of App
 
@@ -23,10 +23,6 @@ bundle exec rails server
 ```
 
 - Then open `http://localhost:3000` in your browser
-
-## Testing
-
-I tested our app with Capybara and RSpec. Coverage, measured with SimpleCov, is at 96.7%
 
 ## User Stories
 
