@@ -8,7 +8,7 @@ Due to the time limitations I opted to use scaffolding where appropriate so I co
 
 [CLICK HERE](https://fast-headland-03608.herokuapp.com/)
 
-SCREENSHOT of App
+<img width="2048" alt="Screenshot 2021-04-16 at 18 47 43" src="https://user-images.githubusercontent.com/71830424/115064030-51f9f580-9ee4-11eb-97d2-fc805478f5cd.png">
 
 ## Installation Instructions
 
